@@ -12,15 +12,20 @@
             <h1>Mina<span class="logo-purple">'</span>s Glamour <span class="logo-purple">Mink</span></h1>
         </div>
         <ul class="nav-list">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#hero-section">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#packages-section">Services</a></li>
+            <li><a href="#book-section">Contact</a></li>
         </ul>
         <button class="nav-btn">Book Now</button>
-        <div class="mobile-menu"><img src="hamburger menu icon.png" alt="Menu" class="mobile-menu-icon"></div>
+
+
+        <div class="mobile-menu">
+            <input type="checkbox" id="menu-toggle">
+            <img src="hamburger menu icon.png" alt="Menu" class="mobile-menu-icon">
+        </div>
     </nav>
-    <section class="hero-section">
+    <section class="hero-section" id="hero-section">
         <img src="https://res.cloudinary.com/m2pyc4v5/image/upload/v1791476691/mina_s_hero_image.webp" alt="Glamour Mink" class="hero-image" loading="lazy">
         <div class="hero-text">
             <h1>Elegance Crafted Down to the Finest Detail</h1>
@@ -30,7 +35,7 @@
             </div>
         </div>
     </section>
-    <section class="about-section">
+    <section class="about-section" id="about-section">
         <h3>WHAT WE DO</h3>
         <h2>Treatments Crafted to Elevate Your Everyday</h2>
         <p>From custom lash sets to restorative nail and foot care, every treatment is tailored to keep you polished, refreshed, and confident.</p>
@@ -93,7 +98,7 @@
             </div>
         </div>
     </section>
-    <section class="packages-section">
+    <section class="packages-section" id="packages-section">
         <h3>CURATED EXPERIENCES</h3>
         <h2>Signature Bundles & Packages</h2>
         <p>Pair our most loved treatments together for effortless all-over glam and exclusive package pricing.</p>
@@ -181,41 +186,41 @@
             </div>
         </div>
     </section>
-    <section class="book-section">
+    <section class="book-section" id="book-section">
         <h3>Ready to Book?</h3>
         <h2>Request an Appointment</h2>
         <p>Select your treatment and preferred time. We will confirm your slot within 2 to 4 hours.</p>
         <div class="book-div">
             <div class="book-text">
-                <label for="address">ADDRESS</label>
+                <h3>ADDRESS</h3>
                 <h4>14 Studio Lane, Merchant Quarter
 Manchester, M2 4WY</h4>
 
-                <label for="phone-number">CALL US</label>
+                <h3>CALL US</h3>
                 <h4>07045144161</h4>
 
-                <label for="email-address">EMAIL US</label>
+                <h3>EMAIL US</h3>
                 <h4>godspowerokoko33@gmail.com</h4>
             </div>
             <form class="book-form">
-                <label for="fullname">FULLNAME
-                    <input type="text" name="name" id="fullname" placeholder="Enter Your Name">
-                </label>
+                <h3>Full Name:</h3>
+                <input type="text" name="name" id="fullname" placeholder="Enter Your Name">
+                
 
-                <label for="phone-no">PHONE/ Whatsapp No.
-                    <input type="tel" name="phone no" id="phone-no" placeholder=" e.g (+234) 8023456789">
-                </label>
+                <h3>Phone number:</h3>
+                <input type="tel" name="phone no" id="phone-no" placeholder=" e.g (+234) 8023456789">
+                
 
-                <label for="service">CHOOSE A SERVICE
-                    <select name="services" id="service">
-                        <option value="select-a-service">Select a service</option>
-                        <option value="lashes">Lash Extensions / Refill</option>
-                        <option value="nails">Press-On Consultation & Sizing</option>
-                        <option value="eyebrows">Brow Carving & Sculpt</option>
-                        <option value="mani-and-pedi">Manicure & Spa Pedicure</option>
-                        <option value="duo">Bundle / Duo</option>
-                    </select>
-                </label>
+                <h3>Choose a Service</h3>
+                <select name="services" id="service">
+                    <option value="select-a-service">Select a service</option>
+                    <option value="lashes">Lash Extensions / Refill</option>
+                    <option value="nails">Press-On Consultation & Sizing</option>
+                    <option value="eyebrows">Brow Carving & Sculpt</option>
+                    <option value="mani-and-pedi">Manicure & Spa Pedicure</option>
+                    <option value="duo">Bundle / Duo</option>
+                </select>
+                
 
                 <button type="submit">REQUEST APPOINTMENT</button>
             </form>
@@ -227,11 +232,11 @@ Manchester, M2 4WY</h4>
                 <h1>Mina<span class="flogo-purple">'</span>s Glamour <span class="flogo-purple">Mink</span></h1>
                 <p>Where precision meets effortless beauty. Specializing in bespoke lash sets, handcrafted luxury press-ons, sculpted brows, and restorative spa nail care.</p>
                 <div class="footer-icon-div">
-                    <img src="social icons/facebook icon.png" alt="facebook icon">
-                    <img src="social icons/instagram icon.png" alt="instagram icon">
-                    <img src="social icons/tik-tok icon.png" alt="tiktok icon">
-                    <img src="social icons/twitter icon.png" alt="twitter icon">
-                    <img src="social icons/whatsapp icon.png" alt="facebook icon">
+                    <a href="#"><img src="social icons/facebook icon.png" alt="facebook icon"></a>
+                    <a href="#"><img src="social icons/instagram icon.png" alt="instagram icon"></a>
+                    <a href="#"><img src="social icons/tik-tok icon.png" alt="tiktok icon"></a>
+                    <a href="#"><img src="social icons/twitter icon.png" alt="twitter icon"></a>
+                    <a href="#"><img src="social icons/whatsapp icon.png" alt="facebook icon"></a>
                 </div>
             </div>
             <div class="quick-links">
